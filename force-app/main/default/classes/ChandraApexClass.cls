@@ -7,13 +7,9 @@ public with sharing class ChandraApexClass {
 
         System.Debug('Contact Name' + conts.Name);
         System.debug('To Deploy Again');
-<<<<<<< HEAD
 		System.Debug('Added to fix Jenkins');
-        System.Debug('June21');
-=======
-		System.Debug('Added to fix Jenkins with Support');
->>>>>>> 2d6dbea9b05c4f4687a95292365189fa79a1a81a
-        
+        System.Debug('22n June');
+      
     }
 
     }
