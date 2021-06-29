@@ -41,8 +41,8 @@ node {
 				rmsg = sh returnStdout: true, script: "${toolbelt} force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
 			}else{
 			   //rr = bat returnStatus: true, script: "\"${toolbelt}\" force:auth:logout --targetusername  ${HUB_ORG} -p"
-			 //rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
-				rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:deploy -d manifest/. -u ${HUB_ORG}"
+			 rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:mdapi:deploy -d manifest/. -u ${HUB_ORG}"
+				//rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:deploy -d manifest/. -u ${HUB_ORG}"
 				
 				//sfdx force:source:deploy -d <directory>
 				//sfdx force:source:deploy -d <directory>
